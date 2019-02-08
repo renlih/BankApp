@@ -3,8 +3,8 @@ import { Client } from '../model/client';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-// const BASE_URL = 'http://localhost:8181/api/v1/client';
-const BASE_URL = '/api/v1/client';
+const BASE_URL = 'http://localhost:8181/api/v1/client'; //local project
+//const BASE_URL = '/api/v1/client';
 
 @Injectable({
   providedIn: 'root'
